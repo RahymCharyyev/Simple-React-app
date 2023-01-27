@@ -1,15 +1,11 @@
 import "./App.css";
-import Header from "./components/Header";
-import MainContent from "./components/MainContent";
-import Footer from "./components/Footer";
-function App() {
+import Navbar from "./components/Navbar";
+import Main from "./components/Main";
+export default function App() {
   return (
     <div>
-      <Header />
-      <MainContent />
-      <Footer />
+      <Navbar />
+      <Main />
     </div>
   );
 }
-
-export default App;
